@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AWS_REGION: eu-west-1
+  AWS_REGION: eu-north-1
   STACK_NAME: hello-world
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
